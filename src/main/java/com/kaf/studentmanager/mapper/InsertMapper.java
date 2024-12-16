@@ -1,4 +1,4 @@
 package com.kaf.studentmanager.mapper;
 
-public class UserMapper {
+public interface InsertMapper {
 }

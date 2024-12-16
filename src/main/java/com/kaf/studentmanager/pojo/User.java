@@ -3,7 +3,7 @@ package com.kaf.studentmanager.pojo;
 public class User {
     private String UserName;
     private String UserPassword;
-    private String UserPower;
+    private Integer UserPower;
     //Getter
 
     //Setter
