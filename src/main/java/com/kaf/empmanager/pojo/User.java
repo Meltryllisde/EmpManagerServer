@@ -1,13 +1,19 @@
-package com.kaf.studentmanager.pojo;
+package com.kaf.empmanager.pojo;
 
 public class User {
-    private String UserName;
-    private String UserPassword;
-    private Integer UserPower;
-    //Getter
+    private String number;
+    private String password;
 
-    //Setter
+    public String getNumber() {
+        return number;
+    }
 
-    //构造
+    public String getPassword() {
+        return password;
+    }
 
+    public User(String number, String password) {
+        this.number = number;
+        this.password = password;
+    }
 }

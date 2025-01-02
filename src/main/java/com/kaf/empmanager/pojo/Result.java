@@ -1,4 +1,4 @@
-package com.kaf.studentmanager.pojo;
+package com.kaf.empmanager.pojo;
 
 public class Result {
     private Integer code;

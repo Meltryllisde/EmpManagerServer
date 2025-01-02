@@ -1,4 +1,10 @@
 package com.kaf.empmanager.service;
 
-public interface InsertService {
+import com.kaf.empmanager.pojo.Attendance;
+
+public interface AttendanceService {
+    int getAttendanceOn(Attendance attendance);
+    int getAttendanceOff(Attendance attendance);
+    void AttendanceOn(Attendance attendance);
+    void AttendanceOff(Attendance attendance);
 }
